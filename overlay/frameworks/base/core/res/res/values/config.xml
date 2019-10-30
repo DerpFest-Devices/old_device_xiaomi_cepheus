@@ -688,4 +688,7 @@
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
      -->
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    
+    <!-- Whether to show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
 </resources>
