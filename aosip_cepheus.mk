@@ -9,6 +9,11 @@ $(call inherit-product, device/xiaomi/cepheus/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# GApps targets
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosip_cepheus
 PRODUCT_DEVICE := cepheus
