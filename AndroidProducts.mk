@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cepheus.mk
+    $(LOCAL_DIR)/aosip_cepheus.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_cepheus-user \
+    aosip_cepheus-userdebug \
+    aosip_cepheus-eng
