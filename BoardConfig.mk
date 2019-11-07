@@ -18,6 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := cepheus
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
+# Power
+TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event4"
+
 # Kernel
 TARGET_KERNEL_CONFIG := cepheus_defconfig
 
