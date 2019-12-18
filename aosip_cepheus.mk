@@ -29,3 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="cepheus"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/main.mk)
