@@ -13,6 +13,7 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_cepheus
