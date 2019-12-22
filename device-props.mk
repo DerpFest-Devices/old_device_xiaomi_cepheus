@@ -7,7 +7,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.enableNCSService=TRUE \
     persist.vendor.camera.enableTOFInterface=TRUE \
     persist.vendor.camera.mfnrframenum=8 \
-    persist.vendor.camera.multicam=TRUE
+    persist.vendor.camera.multicam=TRUE \
+    ro.miui.notch=1
 
 # Display density
 PRODUCT_PROPERTY_OVERRIDES += \
