@@ -17,4 +17,10 @@
 -->
 <resources>
     <dimen name="status_bar_extra_padding">16dp</dimen>
+
+    <!-- Custom cutout overlay view sizes -->
+    <dimen name="config_customCutoutTopWidth">144.0px</dimen>
+    <dimen name="config_customCutoutTopHeight">144.0px</dimen>
+    <dimen name="config_customCutoutBottomWidth">154.0px</dimen>
+    <dimen name="config_customCutoutBottomHeight">154.0px</dimen>
 </resources>
